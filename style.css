@@ -4,7 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;;
     
 }
-section{
+.flexinbleContainer{
     height: 500px;
     padding-bottom: 150px;
     display: flex;
@@ -135,4 +135,64 @@ button#download:hover {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.Singlecontent {
+    width: 50%;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0px 0px 13px 1px grey;
+    height: 319px;
+    border-radius: 5px;
+}
+
+.Singlecontent h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.Singlecontent h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: orange;
+}
+
+.Singlecontent p {
+    color: dimgray;
+    font-size: 15px;
+    letter-spacing: .1px;
+    word-spacing: .6px;
+}
+h1.head {
+    text-align: center;
+    font-size: 36px;
+    margin-top: -88px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+h1.head {
+    text-align: center;
+    font-size: 40px;
+    margin-top: -88px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.container {
+    width: 1218px;
+    margin: auto;
+}
+#experience{
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+div#fulltack {border-left: 7px solid;border-image: linear-gradient(blue, cyan);border-image-slice: 1;}
+
+div#baby {
+    border-left: 8px solid;
+    border-image: linear-gradient(salmon, orange);
+    border-image-slice: 1;
+}
+section#footer {
+    text-align: center;
+    margin-top: -63px;
 }
