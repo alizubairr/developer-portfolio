@@ -62,7 +62,12 @@ button#hireme {
     border-radius: 5px;
 }
 
-button#hireme a {font-size: 15px;text-decoration: none;font-weight: 700;color: white;}
+button#hireme a {
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
 
 button#hireme:hover {
     cursor: pointer;
@@ -72,4 +77,62 @@ button#hireme:hover {
     max-width: 75%;
     margin-top: 22px;
     margin-left: 75px;
+}
+.Dream-Image {
+    width: 50%;
+    margin-left: 90px;
+}
+
+.righttext {
+    width: 50%;
+    margin-top: 44px;
+}
+
+.Dream-Image img {
+    max-width: 75%;
+}
+
+.righttext h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.righttext h4 {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.righttext p {
+    color: dimgray;
+    font-size: 15px;
+    letter-spacing: .1px;
+    word-spacing: .6px;
+    width: 524px;
+    margin-bottom: 20px;
+}
+
+button#download {
+    border: none;
+    padding: 13px 15px;
+    background-image: linear-gradient(45deg,lightsalmon, tomato);
+    border-radius: 5px;
+}
+
+button#download a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    color: white;
+}
+
+button#download:hover {
+    cursor: pointer;
+    background-image: linear-gradient(45deg,#ff672a, #ff3b18);
+}
+#Dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
