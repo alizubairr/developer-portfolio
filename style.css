@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;;
+    
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    display: flex;
+}
+#banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+
+}
+.left-all-text-half {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.right-iamge-half {
+    width: 50%;
+
+}
+
+.right-iamge-half img {
+    max-width: 100%;
+}
+
+.left-all-text-half h1 {
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: .1px;
+    margin-bottom: 50px;
+}
+
+.left-all-text-half h1 span {
+    color: orange;
+}
+
+.left-all-text-half h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.left-all-text-half p {
+    width: 517px;
+    font-size: 15px;
+    color: dimgray;
+    letter-spacing: .1px;
+    word-spacing: 0.6px;
+}
+
+button#hireme {
+    width: 124px;
+    padding: 11px 10px;
+    background-image: linear-gradient(45deg,lightsalmon, tomato);
+    border: none;
+    border-radius: 5px;
+}
+
+button#hireme a {font-size: 15px;text-decoration: none;font-weight: 700;color: white;}
+
+button#hireme:hover {
+    cursor: pointer;
+    background-image: linear-gradient(45deg,#ff672a, #ff3b18);
+}
+.right-iamge-half img {
+    max-width: 75%;
+    margin-top: 22px;
+    margin-left: 75px;
+}
